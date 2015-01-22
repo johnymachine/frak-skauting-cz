@@ -1,0 +1,2 @@
+# frak
+frak.skauting.cz
