@@ -32,26 +32,27 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img class="img img-responsive" alt="Frak" src="./img/frak-wide-noslogan.png"></a>
+            <a class="navbar-brand" href="#"><img class="img img-responsive" alt="frak" src="./img/frak-wide-noslogan.png"></a>
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right" role="tablist">
+              <li><a href="#okurzu">O kurzu</a></li>
               <li><a href="#informace">Informace</a></li>
               <li><a href="#prihlaska">Příhláška</a></li>
               <li><a href="#fotky">Fotky</a></li>
+              <li><a href="#reference">Rádci</a></li>
               <li><a href="#kontakt">Kontakt</a></li>
             </ul>
           </div>
         </div>
       </nav>
-      
       <!-- hlavicka s obrazkem -->
       <header id="header">
         <div id="fb-root">
           <div class="fb-like-box"
             <div class="fb-like"
-              data-href="https://www.facebook.com/frak.skauting" 
-              data-layout="box_count" 
+              data-href="https://www.facebook.com/frak.skauting"
+              data-layout="box_count"
               data-action="like"
               data-colorscheme="dark"
               data-showfaces="false"
@@ -59,59 +60,224 @@
             </div>
           </div>
         </div>
-        <img class="logo img img-responsive" src="./img/frak-white.png" alt="gdg-logo">
+        <img class="logo img img-responsive" src="./img/frak-white.png" alt="frak-logo">
         <p><span>Rádcovský kurz Libereckého kraje, který ti prostě sedne</span></p>
       </header>
-
-      <!-- hlavni informace o kurzu -->
-      <section id="informace">
+      <!-- o kurzu -->
+      <section id="okurzu">
         <div class="container">
-          <h1>Informace</h1>
-          <div class="row">
-            
+          <h1>O kurzu</h1>
+          <p class="lead text-justify">Frak je rádcovský kurz libereckého kraje, jehož první ročník proběhl v Jizerských horách na chatě Ahoj! Neopakovatelnou atmosféru jizerskohorského mordu a úspěšné vyřešení spletité detektivky, krom toho i spoustu informací v hlavě si odnesla již první dvacítka účastníků. Proto neváhej a přihlaš se na další ročník!</p>
+          <div class="row poem">
+            <div class="col-xs-2 col-xs-offset-4">
+              <img class="img img-circle pull-right" src="./img/fotky/maj.jpg" alt="maj" width="200">
+            </div>
+            <div class="col-xs-6">
+              <p>Byl pozdní večer, první máj,<br>večerní máj, byl Fraku čas...</p>
+              <p>Honzagův zval ku Fraku hlas,<br>kde jizerský zaváněl háj.</p>
+              <p>O Fraku šeptal každý, kdo už tam byl,<br>ostatní běží, aby jim kus místa zbyl.</p>
+              <p>Rádce toho, jež Frak zažije,<br>už nic nepřekvapí, vždy přežije!</p>
+              <small>Zuzka</small>
+            </div>
           </div>
         </div>
       </section>
-      <!-- fotky -->
-      <section id="fotky">
-      </section>
-      <!-- prihlaska -->
-      <section id="prihlaska">
+      <!-- informace -->
+      <section id="informace">
         <div class="container">
-        <p>Přihlaš se na Frak do 1. dubna</p>
-        <button class="btn btn-lg btn-success">Závazně se přihlásit!</button>
-        </div>
-      </section>
-      <!-- hlavni informace o kurzu -->
-      <section id="about">
-        <h1></h1>
-        <p></p>
-      </section>
-      <!-- kontakt -->
-      <section id="kontakt">
-        <h1>Kontakt</h1>
-      </section>
-      <!-- paticka -->
-      <footer id="footer">
-        <div class="container">
-          <p>Pro Frak Jan Gabriel</p>
-        </div>
-      </footer>
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js "></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="js/bootstrap.min.js "></script>
-      <!-- Facebook SDK for social plugins -->
-      <script>
-      (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=781398388562726&version=v2.2";
-      fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-      </script>
-      <!-- App specific js -->
-      <script src="js/app.js"></script>
-    </body>
-  </html>
+          <h1>Praktické informace</h1>
+          <div class="row">
+            <div class="col-md-3 col-xs-6">
+              <div class="well">
+                <span class="hero-icon fa fa-calendar-o"></span>
+                <h3>Kdy?</h3>
+                <p>29. 4. - 3. 5. 2015</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <div class="well">
+                <span class="hero-icon fa fa-map-marker"></span>
+                <h3>Kde?</h3>
+                <p>V Jizerských horách</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <div class="well">
+                <span class="hero-icon fa fa-users"></span>
+                <h3>Pro koho?</h3>
+                <p><span class="fa fa-male"></span> & <span class="fa fa-female"></span> 12 - 14+ let</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <div class="well">
+                <span class="hero-icon fa fa-money"></span>
+                <h3>Za kolik?</h3>
+                <p>700Kč</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- prihlaska -->
+        <section id="prihlaska">
+          <div id="strip">
+            <div class="container">
+              <p>Přihlaš se na Frak do 1. dubna.</p>
+              <a href="https://docs.google.com/forms/d/1GKuT2z4Ahg6nd5dnLw3mIBn4jqQMUnP10w-zmOqHpCs/viewform" class="btn btn-lg btn-success">Závazně se přihlásit!</a>
+            </div>
+          </div>
+        </section>
+        <!-- fotky -->
+        <section id="fotky">
+          <div class="container">
+            <h1>Fotky</h1>
+          </div>
+          <div class="container">
+            <p class="lead text-center">Více fotek najdeš na <a href="https://www.facebook.com/frak.skauting/photos_stream">facebooku</a>!</p>
+            <div class="row">
+              <div class="col-md-12">
+                <div id="Carousel" class="carousel slide">
+                  
+                  <ol class="carousel-indicators">
+                    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#Carousel" data-slide-to="1"></li>
+                    <li data-target="#Carousel" data-slide-to="2"></li>
+                    <li data-target="#Carousel" data-slide-to="3"></li>
+                  </ol>
+                  
+                  <!-- Carousel items -->
+                  <div class="carousel-inner">
+                    
+                    <div class="item active">
+                      <div class="row">
+                        <div class="col-md-3"><a class="thumbnail"><img src="./img/fotky/01.jpg" alt="Image" style="max-width:100%;"></a></div>
+                        <div class="col-md-3"><a class="thumbnail"><img src="./img/fotky/02.jpg" alt="Image" style="max-width:100%;"></a></div>
+                        <div class="col-md-3"><a class="thumbnail"><img src="./img/fotky/03.jpg" alt="Image" style="max-width:100%;"></a></div>
+                        <div class="col-md-3"><a class="thumbnail"><img src="./img/fotky/04.jpg" alt="Image" style="max-width:100%;"></a></div>
+                        </div><!--.row-->
+                        </div><!--.item-->
+                        
+                        <div class="item">
+                          <div class="row">
+                            <div class="col-md-3"><a class="thumbnail"><img src="./img/fotky/05.jpg" alt="Image" style="max-width:100%;"></a></div>
+                            <div class="col-md-3"><a class="thumbnail"><img src="./img/fotky/06.jpg" alt="Image" style="max-width:100%;"></a></div>
+                            <div class="col-md-3"><a class="thumbnail"><img src="./img/fotky/07.jpg" alt="Image" style="max-width:100%;"></a></div>
+                            <div class="col-md-3"><a class="thumbnail"><img src="./img/fotky/08.jpg" alt="Image" style="max-width:100%;"></a></div>
+                            </div><!--.row-->
+                            </div><!--.item-->
+                            
+                            <div class="item">
+                              <div class="row">
+                                <div class="col-md-3"><a class="thumbnail"><img src="./img/fotky/09.jpg" alt="Image" style="max-width:100%;"></a></div>
+                                <div class="col-md-3"><a class="thumbnail"><img src="./img/fotky/10.jpg" alt="Image" style="max-width:100%;"></a></div>
+                                <div class="col-md-3"><a class="thumbnail"><img src="./img/fotky/11.jpg" alt="Image" style="max-width:100%;"></a></div>
+                                <div class="col-md-3"><a class="thumbnail"><img src="./img/fotky/12.jpg" alt="Image" style="max-width:100%;"></a></div>
+                                </div><!--.row-->
+                                </div><!--.item-->
+                                <div class="item">
+                                  <div class="row">
+                                    <div class="col-md-3"><a class="thumbnail"><img src="./img/fotky/13.jpg" alt="Image" style="max-width:100%;"></a></div>
+                                    <div class="col-md-3"><a class="thumbnail"><img src="./img/fotky/14.jpg" alt="Image" style="max-width:100%;"></a></div>
+                                    <div class="col-md-3"><a class="thumbnail"><img src="./img/fotky/15.jpg" alt="Image" style="max-width:100%;"></a></div>
+                                    <div class="col-md-3"><a class="thumbnail"><img src="./img/fotky/16.jpg" alt="Image" style="max-width:100%;"></a></div>
+                                    </div><!--.row-->
+                                    </div><!--.item-->
+                                  </div>
+                                </div>
+                                </div><!--.container-->
+                              </section>
+                              <!-- reference -->
+                              <section id="reference">
+                                <div class="container">
+                                  <h1>Co o nás říkají rádci ...</h1>
+                                  <div class="row">
+                                    <div class="col-md-6">
+                                      <blockquote>
+                                        <div class="row">
+                                          <div class="col-sm-3 text-center">
+                                            <img class="img-circle" src="./img/profile/zuzka.jpg" alt="zuzka">
+                                          </div>
+                                          <div class="col-sm-9 text-justify">
+                                            <p>Bylo to fakt úžasný. Hodně mi to přineslo, teď mám jiný pohled na to, jak pracovat s vlčatama. Poznala jsem nové lidi a všichni byli fakt fajn. Všem rádcům doporučuji!</p>
+                                            <small>Zuzka</small>
+                                          </div>
+                                        </div>
+                                      </blockquote>
+                                    </div>
+                                    <div class="col-md-6">
+                                      <blockquote>
+                                        <div class="row">
+                                          <div class="col-sm-3 text-center">
+                                            <img class="img-circle" src="./img/profile/orel.jpg" alt="orel">
+                                          </div>
+                                          <div class="col-sm-9 text-justify">
+                                            <p>Byl to ten nejlepší zážitek co jsem zažil, skvělá parta, super vedoucí, byla sranda. Hodně mi to přineslo jak do života tak do vedení družiny  jedině doporučuji!</p>
+                                            <small>Orel</small>
+                                          </div>
+                                        </div>
+                                      </blockquote>
+                                    </div>
+                                    <div class="col-md-6">
+                                      <blockquote>
+                                        <div class="row">
+                                          <div class="col-sm-3 text-center">
+                                            <img class="img-circle" src="./img/profile/kvitko.jpg" alt="kvitko">
+                                          </div>
+                                          <div class="col-sm-9 text-justify">
+                                            <p>Tenhle kurz mi hodně přispěl do života. Nezapomenutelné zážitky se skvělými lidmi. Vedoucí byli skvělí, nebyla chvíle, kdybych se nudila.</p>
+                                            <small>Kvítko</small>
+                                          </div>
+                                        </div>
+                                      </blockquote>
+                                    </div>
+                                    <div class="col-md-6">
+                                      <blockquote>
+                                        <div class="row">
+                                          <div class="col-sm-3 text-center">
+                                            <img class="img-circle" src="./img/profile/gurman.jpg" alt="gurman">
+                                          </div>
+                                          <div class="col-sm-9 text-justify">
+                                            <p>Bylo to nejvíc super, zažil jsem spoustu zábavy a poznal spoustu suprových lidí. Díky tomuto kurzu mam jiný pohled na problematické členy a přinosné to pro mne bylo ve všech směrech! Bylo to super a všem rádcům rozhodně doporučuji!</p>
+                                            <small>Gurmán</small>
+                                          </div>
+                                        </div>
+                                      </blockquote>
+                                    </div>
+                                  </div>
+                                </div>
+                              </section>
+                              <!-- kontakt -->
+                              <section id="kontakt">
+                                <div class="container">
+                                  <h1>Kontakt</h1>
+                                  <p class="lead">Potřebuješ-li se na cokoliv zeptat, neváhej nás kontaktovat:</p>
+                                  <p>Hlavní email kurzu: <strong>frak@skautlib.cz</strong></p>
+                                  <p><strong>Honzag:</strong> +420 728 353 399 (STS)</p>
+                                  <p><strong>Zuzka:</strong> +420 604 957 043 (STS)</p>
+                                </div>
+                              </section>
+                              <!-- paticka -->
+                              <footer id="footer">
+                                <div class="container">
+                                  <img class="img" src="./img/junak.png" alt="frak-logo">
+                                  <p>Frak pořádá Junák – svaz skautů a skautek ČR, Liberecký kraj.</p>
+                                  <p>With <span class="fa fa-heart"></span> from <a href="http://jxg.cz/">jxg.cz</a>.</p>
+                                </div>
+                              </footer>
+                              <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                              <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js "></script>
+                              <!-- Include all compiled plugins (below), or include individual files as needed -->
+                              <script src="js/bootstrap.min.js "></script>
+                              <!-- Facebook SDK for social plugins -->
+                              <script>
+                              (function(d, s, id) {
+                              var js, fjs = d.getElementsByTagName(s)[0];
+                              if (d.getElementById(id)) return;
+                              js = d.createElement(s); js.id = id;
+                              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=781398388562726&version=v2.2";
+                              fjs.parentNode.insertBefore(js, fjs);
+                              }(document, 'script', 'facebook-jssdk'));
+                              </script>
+                              <!-- App specific js -->
+                              <script src="js/app.js"></script>
+                            </body>
+                          </html>

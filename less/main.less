@@ -58,30 +58,107 @@ section{
 	padding-top: 35px;
 }
 
-#prihlaska{
-	.clearfix;
-	background: darken(red, 25%);
-	background-image: url("../img/strip.png");
-	padding: 10px;
-	box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.75);
-	.btn{
-		.pull-right;
-	}
-	p{
-		.pull-left;
-		line-height: 45px;
-		font-size: 200%;
-		color: white;
-		text-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
-		margin: 0;
+#okurzu{
+	.poem{
+		padding-top: 40px;
 	}
 }
 
-footer{
-	background: linear-gradient(135deg, #eeeeee 0%,#cccccc 100%);
-	border-top: solid 1px @gray-base; 
-	padding-bottom: 20px;
-	padding-top: 90px;
-	color: white;
+#informace{
+	.row{
+		text-align: center;
+	}
+	.hero-icon{
+		.center-block;
+		font-size: 3em;
+	}
+}
+
+#prihlaska{
+	padding-top: 50px;
+	#strip{
+		.clearfix;
+		background: darken(red, 25%);
+		background-image: url("../img/strip.png");
+		padding: 10px;
+		box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.75);
+		.btn{
+			.pull-right;
+		}
+		p{
+			.pull-left;
+			line-height: 45px;
+			font-size: 200%;
+			color: white;
+			text-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+			margin: 0;
+		}
+	}
+}
+
+#fotky{
+	.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+	}
+	/* The indicators */
+	.carousel-indicators {
+		right: 50%;
+		top: auto;
+		bottom: -10px;
+		margin-right: -19px;
+	}
+	/* The colour of the indicators */
+	.carousel-indicators li {
+		background: #cecece;
+	}
+	.carousel-indicators .active {
+	background: #428bca;
+	}
+}
+
+#reference{
+	blockquote {
+	    border-left: none; 
+	    margin: 0;
+	}
+
+	blockquote img {
+	    margin-bottom: 10px;
+	}
+
+	blockquote p:before {
+	    content: "\f10d";
+	    font-family: 'Fontawesome';
+	    float: left;
+	    margin-right: 10px;
+	}
+	img{
+		width: 80px;
+		height: 80px;
+	}
+}
+
+#kontakt{
+	p{
 	.text-center;
+	}
+	padding-bottom: 100px;
+}
+
+footer{
+	background-image: url("../img/footer.png");
+	background-color: @gray-dark; 
+	color: darken(white, 25%);
+	padding-top: 30px;
+	img{
+		.center-block;
+		width: 150px;
+	}
+	p{
+		.text-center;
+	}
+	.fa-heart{
+		color: fade(darken(red, 25%), 75%);
+	}
 }
