@@ -164,7 +164,7 @@
               <p class="text-center">Přihlaš se na Frak do 1. dubna!</p>
             </div>
             <div class="col-md-3 col-xs-12">
-              <a href="https://docs.google.com/forms/d/1GKuT2z4Ahg6nd5dnLw3mIBn4jqQMUnP10w-zmOqHpCs/viewform" class="btn btn-lg btn-success btn-block">Přihlásit!</a>
+              <a id="register" href="https://docs.google.com/forms/d/1GKuT2z4Ahg6nd5dnLw3mIBn4jqQMUnP10w-zmOqHpCs/viewform" class="btn btn-lg btn-success btn-block">Přihlásit!</a>
             </div>
           </div>
         </div>
@@ -330,6 +330,7 @@
                       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
                       ga('create', 'UA-58963326-1', 'auto');
                       ga('send', 'pageview');
+                      document.getElementById("register").addEventListener("click", function(){ga('send', 'event', 'Registrace', 'click');});
                       </script>
                       <noscript>
                       <style type='text/css'>body{display:block;}</style>
