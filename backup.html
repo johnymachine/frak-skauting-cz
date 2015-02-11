@@ -330,7 +330,11 @@
                       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
                       ga('create', 'UA-58963326-1', 'auto');
                       ga('send', 'pageview');
-                      document.getElementById("register").addEventListener("click", function(){ga('send', 'event', 'Registrace', 'click');});
+                      document.getElementById('register').addEventListener('click', function(e) {
+                        ga('send', 'event', 'button', 'click', 'Registrace');
+                        //console.log(e);
+                        //e.preventDefault()
+                      });
                       </script>
                       <noscript>
                       <style type='text/css'>body{display:block;}</style>
