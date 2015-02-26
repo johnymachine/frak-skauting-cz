@@ -1,3 +1,5 @@
+var frak = function(){
+'use strict'
 $(document).ready(function() {
     $('#Carousel').carousel({
         interval: 5000
@@ -7,3 +9,5 @@ $(document).ready(function() {
  $(window).load(function() {
     $(document.body).fadeIn(1000);
  });
+}
+frak();
