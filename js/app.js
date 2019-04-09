@@ -6,10 +6,6 @@ var frak = function() {
         });
     });
 
-    $(window).load(function() {
-        $(document.body).fadeIn(1000);
-    });
-
     $('nav ul li a').each(function() {
         $(this).click(function(e) {
             e.preventDefault();
