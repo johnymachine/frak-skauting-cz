@@ -20,4 +20,4 @@ jobs:
         METHOD: sftp
         PORT: 22
         REMOTE_DIR: www
-        ARGS: --delete
+        ARGS: --delete --verbose
