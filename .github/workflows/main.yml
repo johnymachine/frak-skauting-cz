@@ -11,8 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Build Project
-      run: ls
+    - uses: actions/checkout@master
     - name: Deploy to sFTP
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
       env:
@@ -23,4 +22,4 @@ jobs:
         PORT: 22
         LOCAL_DIR: .
         REMOTE_DIR: www
-        ARGS: --delete --verbose
+        ARGS: --delete
