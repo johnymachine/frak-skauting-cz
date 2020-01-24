@@ -11,6 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Build Project
+      run: |
+        pwd
+        ls
     - name: Deploy to sFTP
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
       env:
